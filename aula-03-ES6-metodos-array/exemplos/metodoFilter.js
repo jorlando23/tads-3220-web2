@@ -9,4 +9,11 @@ for(let i = 0; i < estudantes.length; i++){
         estudantesMaiorIdade.push(estudantes[i])
     }
 }
-console.log(estudantesMaiorIdade)
+//console.log(estudantesMaiorIdade)
+let estudantesFiltrados = estudantes.filter(function(estudante){
+    return estudante.idade >=18
+})
+//estudantesFiltrados = estudantes.filter(estudante=>estudante.idade>=18)
+console.log(estudantesFiltrados)
+
+

@@ -8,5 +8,7 @@ console.log("**** Lista de Filmes - For Loop ****")
  }
 // Utilizando o método array.forEach
 console.log("**** Lista de Filmes - array.ForEach ****")
-
-
+filmes.forEach(function(filme){
+    console.log(filme)
+})
+//filmes.forEach(filme=>{ console.log(filme)})
